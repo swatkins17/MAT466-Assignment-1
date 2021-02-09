@@ -579,7 +579,7 @@ M2 <- cov((cbind(ForwardData1$LogReturn, ForwardData2$LogReturn, ForwardData3$Lo
 
 
 # Eigenvalues and eigenvectors of covariance matrix:
-YieldCovEigenValues <- eigen(M2)
+ForwardCovEigenValues <- eigen(M2)
 
 
 
